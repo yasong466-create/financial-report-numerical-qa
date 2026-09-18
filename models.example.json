@@ -1,0 +1,8 @@
+{
+  "models": [
+    {"name": "deepseek", "enabled": true, "base_url": "https://api.deepseek.com", "api_key_env": "OPENAI_API_KEY", "model": "deepseek-chat", "min_interval_seconds": 0},
+    {"name": "qwen", "enabled": true, "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", "api_key_env": "QWEN_API_KEY", "model": "qwen-plus", "min_interval_seconds": 0, "max_completion_tokens": 1024},
+    {"name": "glm", "enabled": true, "base_url": "https://open.bigmodel.cn/api/paas/v4", "api_key_env": "GLM_API_KEY", "model": "glm-4-flash", "min_interval_seconds": 60, "max_completion_tokens": 1024},
+    {"name": "kimi", "enabled": true, "base_url": "https://api.moonshot.cn/v1", "api_key_env": "KIMI_API_KEY", "model": "kimi-k3", "min_interval_seconds": 21, "omit_temperature": true, "max_completion_tokens": 1024}
+  ]
+}
