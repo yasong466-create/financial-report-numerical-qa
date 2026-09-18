@@ -1,0 +1,3 @@
+provider,model,method,samples,completed,calculation_samples,EM,F1,Recall@5,code_success_rate,numeric_accuracy
+deepseek,deepseek-chat,standard_rag,500,500,215,0.54,0.6782322589424323,0.974,0.0,0.5441860465116279
+deepseek,deepseek-chat,ours,500,500,215,0.54,0.6888344885068981,0.974,0.9906976744186047,0.5441860465116279
